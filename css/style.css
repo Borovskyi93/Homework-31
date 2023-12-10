@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 100px auto;
+}
+
+button {
+    min-height: 60px;
+    width: 45%;
+    background-color: lightgrey;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(172, 171, 171);
+    transform: scale(1.1);
+}
